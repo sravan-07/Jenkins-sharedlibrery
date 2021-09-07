@@ -13,4 +13,8 @@ node
     {
        nexus_upload()
     }
+    stage('Nexus-Download')
+    {
+       nexus_download()
+    }
 }
