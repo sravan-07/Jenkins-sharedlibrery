@@ -9,6 +9,10 @@ node
     {
        code_build()
     }
+    stage('SonarScanner')
+    {
+        sonar_scanner()
+    }
     stage('Nexus-Upload')
     {
        nexus_upload()
